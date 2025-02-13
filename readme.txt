@@ -1,6 +1,6 @@
 ---
 
-*Design and Development Report (500 words)*
+*Design and Development Report*
 
 *Overview*  
 This project involved creating a responsive landing page for "Study MBBS Abroad" to showcase programs, admission processes, and capture leads. The goal was to deliver a user-friendly experience optimized for conversions and performance.
