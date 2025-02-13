@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study MBBS Abroad - University Insights</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-gray-100">
+  <!-- Hero Section -->
+  <header class="bg-blue-900 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-4">Study MBBS Abroad</h1>
+      <p class="text-xl mb-8">Start your journey to become a global medical professional.</p>
+      <a href="#lead-form" class="bg-white text-blue-900 px-8 py-3 rounded-full font-semibold hover:bg-blue-100 transition duration-300">Apply Now</a>
+    </div>
+  </header>
+
+  <!-- Why Study MBBS Abroad Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Why Study MBBS Abroad?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-4">Global Recognition</h3>
+          <p>Degrees recognized by WHO, MCI, and other international medical councils.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-4">Affordable Fees</h3>
+          <p>Low tuition fees compared to private medical colleges in your home country.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold mb-4">World-Class Facilities</h3>
+          <p>State-of-the-art infrastructure and experienced faculty.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Countries Section -->
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Top Countries to Study MBBS</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-4">Russia</h3>
+          <p>Renowned universities with English-medium programs.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-4">Uzbekistan</h3>
+          <p>Affordable education with globally recognized degrees.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-4">Kazakhstan</h3>
+          <p>High-quality medical education at low costs.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+          <h3 class="text-xl font-semibold mb-4">Philippines</h3>
+          <p>English-speaking environment with US-based curriculum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Process & Eligibility Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Admission Process & Eligibility</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Eligibility</h3>
+          <ul class="list-disc pl-6">
+            <li>Minimum 60% in 12th grade (PCB).</li>
+            <li>NEET qualification (for Indian students).</li>
+            <li>Valid passport.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Process</h3>
+          <ul class="list-disc pl-6">
+            <li>Submit application form.</li>
+            <li>Receive offer letter.</li>
+            <li>Apply for student visa.</li>
+            <li>Fly to your dream destination!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Form Section -->
+  <section id="lead-form" class="bg-blue-900 text-white py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Apply Now</h2>
+      <form class="max-w-2xl mx-auto" onsubmit="validateForm(event)">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input type="text" id="name" placeholder="Full Name" class="p-3 rounded-lg text-gray-800" required>
+          <input type="email" id="email" placeholder="Email Address" class="p-3 rounded-lg text-gray-800" required>
+          <input type="tel" id="phone" placeholder="Phone Number" class="p-3 rounded-lg text-gray-800" required>
+          <select id="country" class="p-3 rounded-lg text-gray-800" required>
+            <option value="">Select Preferred Country</option>
+            <option value="Russia">Russia</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Kyrgyzstan">Kyrgyzstan</option>
+            <option value="Egypt">Egypt</option>
+          </select>
+        </div>
+        <button type="submit" class="bg-white text-blue-900 px-8 py-3 rounded-full font-semibold mt-6 hover:bg-blue-100 transition duration-300 w-full">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 University Insights. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Form Validation -->
+  <script src="script.js"></script>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-XXXXX-Y');
+  </script>
+
+  <!-- Facebook Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'XXXXXXXXXXXXXXX');
+    fbq('track', 'PageView');
+  </script>
+</body>
+</html>
